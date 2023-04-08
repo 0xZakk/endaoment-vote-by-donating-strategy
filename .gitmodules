@@ -4,3 +4,6 @@
 [submodule "lib/solmate"]
 	path = lib/solmate
 	url = https://github.com/transmissions11/solmate
+[submodule "lib/endaoment-contracts-v2"]
+	path = lib/endaoment-contracts-v2
+	url = https://github.com/endaoment/endaoment-contracts-v2
