@@ -7,3 +7,6 @@
 [submodule "lib/endaoment-contracts-v2"]
 	path = lib/endaoment-contracts-v2
 	url = https://github.com/endaoment/endaoment-contracts-v2
+[submodule "lib/contracts"]
+	path = lib/contracts
+	url = https://github.com/allo-protocol/contracts
