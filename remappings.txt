@@ -1,0 +1,3 @@
+@endaoment/=lib/endaoment-contracts-v2/src/
+@allo/=lib/contracts/contracts/
+

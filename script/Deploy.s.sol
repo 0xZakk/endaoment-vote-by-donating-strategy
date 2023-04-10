@@ -1,18 +1,17 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
+pragma solidity 0.8.13;
 
 import {Script} from 'forge-std/Script.sol';
 
-import {Greeter} from "src/Greeter.sol";
+import {DonationVoting} from "src/DonationVoting.sol";
 
 /// @notice A very simple deployment script
 contract Deploy is Script {
 
   /// @notice The main script entrypoint
-  /// @return greeter The deployed contract
-  function run() external returns (Greeter greeter) {
+  function run() external returns (DonationVoting votingStrategy) {
     vm.startBroadcast();
-    greeter = new Greeter("GM");
+    votingStrategy = new DonationVoting();
     vm.stopBroadcast();
   }
 }
